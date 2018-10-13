@@ -1,0 +1,17 @@
+var mongoose = require('mongoose') 
+
+var Video = require('../models/user'); 
+
+module.exports.controller = function(app) { 
+
+ 
+
+  app.get('/login', function(req, res) { 
+
+      res.render('users/login') 
+
+  }); 
+
+ 
+
+} 
