@@ -1,0 +1,17 @@
+var mongoose = reqire('mongoose') 
+
+      ,Schema = mongoose.Schema 
+
+      userSchema = new Schema( { 
+
+          username: String, 
+
+          password: String           #unohtu laittaa kommentti 
+
+      }), 
+
+User = mongoose.model('user', userSchema); 
+
+ 
+
+module.exports = User; 
